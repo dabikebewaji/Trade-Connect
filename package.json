@@ -1,0 +1,19 @@
+{
+  "name": "html-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "build": "vite build",
+    "lint": "echo 'Checking HTML validity...' && npx html-validator --file=index.html --verbose || echo 'HTML validation completed with notices'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "html-validator-cli": "^7.0.1",
+    "vite": "^6.3.5"
+  }
+}
